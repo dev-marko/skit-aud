@@ -15,4 +15,46 @@ public class Person {
         this.moneyNeeded = moneyNeeded;
         this.canUseVacationDays = canUseVacationDays;
     }
+
+    public Person() {}
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public Integer getMoneySaved() {
+        return moneySaved;
+    }
+
+    public void setMoneySaved(Integer moneySaved) {
+        this.moneySaved = moneySaved;
+    }
+
+    public Integer getMoneyNeeded() {
+        return moneyNeeded;
+    }
+
+    public void setMoneyNeeded(Integer moneyNeeded) {
+        this.moneyNeeded = moneyNeeded;
+    }
+
+    public Integer getCanUseVacationDays() {
+        return canUseVacationDays;
+    }
+
+    public void setCanUseVacationDays(Integer canUseVacationDays) {
+        this.canUseVacationDays = canUseVacationDays;
+    }
 }
