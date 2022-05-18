@@ -12,10 +12,10 @@ public class VacationPlans {
 
         if (canGo) {
             System.out.println("The person " + person.name + " " + person.surname + " can go on a vacation.");
-            return true;
+            return canGo;
         } else {
             System.out.println("The person " + person.name + " " + person.surname + " can go on a vacation.");
-            return true;    // this should return false, but there is a fault in the code ^
+            return canGo;    // this should return false, but there is a fault in the code ^
         }
     }
 }
